@@ -34,6 +34,11 @@ names["Banana"]=$(with_version "The Banana")
 names["Banana-Green"]=$(with_version "The Green Banana")
 names["Banana-Blue"]=$(with_version "The Blue Banana")
 names["Banana-Red"]=$(with_version "The Red Banana")
+names["Banana-Catppuccin-Mocha"]=$(with_version "The Red Banana")
+names["Banana-Hacker"]=$(with_version "The Red Banana")
+names["Banana-Dracula"]=$(with_version "The Red Banana")
+names["Banana-Tokyo-Night-Storm"]=$(with_version "The Red Banana")
+names["Banana-GruvBox"]=$(with_version "The Red Banana")
 
 # Cleanup old builds
 rm -rf themes bin
@@ -43,7 +48,7 @@ for key in "${!names[@]}"; do
   comment="${names[$key]}"
   cfg=$(get_config_file key)
 
-  ctgen "configs/x.$cfg" -p x11 -d "bitmaps/$key" -n "$key" -c "$comment XCursors" &
+  ctgen "configs/x.$cfg" -s 8 12 16 24 32 48 64 96 128 192 256 -p x11 -d "bitmaps/$key" -n "$key" -c "$comment XCursors" &
   PID=$!
   wait $PID
 done

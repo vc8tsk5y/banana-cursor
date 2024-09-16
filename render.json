@@ -26,5 +26,45 @@
       { "match": "#FCD900", "replace": "#E16C6C" },
       { "match": "#6D3C1B", "replace": "#1B0707" }
     ]
+  },
+  "Banana-Catppuccin-Mocha": {
+    "dir": "svg",
+    "out": "bitmaps/Banana-Catppuccin-Mocha",
+    "colors": [
+      { "match": "#FCD900", "replace": "#F9E2AF" },
+      { "match": "#6D3C1B", "replace": "#45475A" }
+    ]
+  },
+  "Banana-Hacker": {
+    "dir": "svg",
+    "out": "bitmaps/Banana-Hacker",
+    "colors": [
+      { "match": "#FCD900", "replace": "#00FE00" },
+      { "match": "#6D3C1B", "replace": "#000000" }
+    ]
+  },
+  "Banana-Dracula": {
+    "dir": "svg",
+    "out": "bitmaps/Banana-Dracula",
+    "colors": [
+      { "match": "#FCD900", "replace": "#282A36" },
+      { "match": "#6D3C1B", "replace": "#888882" }
+    ]
+  },
+  "Banana-Tokyo-Night-Storm": {
+    "dir": "svg",
+    "out": "bitmaps/Banana-Tokyo-Night-Storm",
+    "colors": [
+      { "match": "#FCD900", "replace": "#E0AF68" },
+      { "match": "#6D3C1B", "replace": "#1F2335" }
+    ]
+  },
+  "Banana-GruvBox": {
+    "dir": "svg",
+    "out": "bitmaps/Banana-GruvBox",
+    "colors": [
+      { "match": "#FCD900", "replace": "#282828" },
+      { "match": "#6D3C1B", "replace": "#EBDBB2" }
+    ]
   }
 }
