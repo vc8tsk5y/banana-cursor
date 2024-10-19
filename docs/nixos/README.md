@@ -18,4 +18,6 @@ home.pointerCursor = {
 };
 ```
 
+Additionally, you'll also want to set this up for any other window manager you might be using
+
 For an example of how I do this, you can view my dotfiles at [elliottminns/dotfiles](https://github.com/elliottminns/dotfiles)
