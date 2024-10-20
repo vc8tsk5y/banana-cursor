@@ -4,6 +4,27 @@ A cursor was requested by [u/JMT37](https://www.reddit.com/user/JMT37/). It is t
 
 [![build](https://github.com/ful1e5/banana-cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/banana-cursor/actions/workflows/build.yml)
 
+## Build instructions
+required packages
+yarn, zip, python-clickgen(aur)
+```bash
+yarn install
+```
+if puppeteer wont install
+```bash
+yarn add puppeteer --ignore-scripts
+cd node_modules/puppeteer
+node install.mjs
+cd../..
+yarn install
+```
+generate and install the theme
+```bash
+yarn generate
+mkdir ~/.local/share/icons
+tar xf bin/banana-all.tar.xz -C ~/.local/share/icons/
+```
+
 ## Notes
 
 -   All cursor's SVG files are found in [svg](./svg) directory or you can also find them on [Figma](https://www.figma.com/file/rL9ngfrDJbXqNW4pUESANY/banana-cursor?node-id=0%3A1).
